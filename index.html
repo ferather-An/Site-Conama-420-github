@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azulzin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resoluções CONAMA 420</h1>
+
+    <div class="resolution" id="conama-420">
+        <h2>Resolução CONAMA 420/2009</h2>
+        <p>A Resolução CONAMA nº 420/2009 estabelece critérios e valores orientadores para a qualidade do solo e das águas subterrâneas, visando a prevenção e o gerenciamento de áreas contaminadas por substâncias químicas decorrentes de atividades humanas.</p>
+        <h3>Principais Pontos da Resolução:</h3>
+        <ul>
+            <li><strong>Critérios e Valores Orientadores:</strong> Define valores de referência de qualidade (VRQ), valores de prevenção (VP) e valores de intervenção (VI) para diferentes substâncias químicas no solo e nas águas subterrâneas.</li>
+            <li><strong>Gerenciamento de Áreas Contaminadas:</strong> Estabelece diretrizes para a identificação, investigação e remediação de áreas contaminadas.</li>
+            <li><strong>Responsabilidade Ambiental:</strong> Impõe ao poluidor a obrigação de recuperar áreas contaminadas e/ou indenizar danos causados.</li>
+            <li><strong>Prevenção da Contaminação:</strong> Enfatiza a importância de medidas preventivas para evitar a contaminação do solo e das águas subterrâneas.</li>
+        </ul>
+        <p><a href="https://cetesb.sp.gov.br/areas-contaminadas/wp-content/uploads/sites/17/2017/09/resolucao-conama-420-2009-gerenciamento-de-acs.pdf" target="_blank">Baixar PDF</a></p>
+    </div>
+
+    <section id="compostos-aromaticos-halogenados">
+        <h2>Compostos Aromáticos Halogenados</h2>
+        <h3>Fenantreno, Indeno(1,2,3-c,d)pireno e Naftaleno</h3>
+        <p>São hidrocarbonetos aromáticos policíclicos (PAHs), substâncias com estruturas em anel de benzeno fundidos. São comumente encontrados em combustíveis fósseis, fumaça de cigarro e alcatrão.</p>
+        <ul>
+            <li><strong>Fenantreno:</strong> Um PAH com três anéis benzênicos fundidos. É encontrado em carvão, petróleo e produtos derivados.</li>
+            <li><strong>Indeno(1,2,3-c,d)pireno:</strong> Um PAH com cinco anéis benzênicos fundidos. É considerado um dos PAHs mais potentes e carcinogênicos.</li>
+            <li><strong>Naftaleno:</strong> Um PAH com dois anéis benzênicos fundidos. Comumente usado em bolas de naftalina e como intermediário na produção de corantes.</li>
+        </ul>
+        <h3>Clorobenzenos</h3>
+        <p>Mono, 1,2, 1,3 e 1,4, Triclorobenzenos (1,2,3, 1,2,4 e 1,3,5) e Tetraclorobenzenos (1,2,3,4, 1,2,3,5, 1,2,4,5 e Hexaclorobenzeno): São derivados do benzeno com um ou mais átomos de hidrogênio substituídos por átomos de cloro. São utilizados como solventes, intermediários na produção de pesticidas e como conservantes de madeira.</p>
+    </section>
+
+    <section id="solventes-clorados">
+        <h2>Solventes Clorados</h2>
+        <p>1,1 Dicloroetano, 1,2 Dicloroetano, 1,1,1 Tricloroetano, Cloreto de Vinila, 1,1 Dicloroeteno, 1,2 Dicloroeteno (cis e trans), Tricloroeteno (TCE), Tetracloroeteno (PCE), Cloreto de Metileno, Clorofórmio e Tetracloreto de Carbono: São compostos orgânicos voláteis que contêm átomos de cloro. Foram amplamente utilizados como solventes industriais e em produtos de limpeza.</p>
+        <ul>
+            <li><strong>TCE e PCE:</strong> Comumente utilizados na limpeza a seco e na indústria eletrônica. São conhecidos contaminantes de águas subterrâneas.</li>
+            <li><strong>Cloreto de Metileno:</strong> Utilizado como solvente em tintas, removedores de tinta e adesivos.</li>
+            <li><strong>Clorofórmio:</strong> Anestésico e solvente, mas seu uso foi reduzido devido à sua toxicidade.</li>
+        </ul>
+    </section>
+
+    <section id="fenois-clorados">
+        <h2>Fenóis Clorados</h2>
+        <p>2-Clorofenol e 2,4-Diclorofenol: São compostos fenólicos com átomos de cloro. Utilizados como desinfetantes, conservantes de madeira e intermediários na produção de outros produtos químicos.</p>
+    </section>
+
+    <h3>Buscar Substâncias de Parâmetros</h3>
+    <input type="text" id="search" placeholder="Buscar substância...">
+    
+    <h3>Dados da Tabela CONAMA 420</h3>
+    <table id="conama-table" class="hidden">
+        <thead>
+            <tr>
+                <th>Substância</th>
+                <th>CAS n°</th>
+                <th>Água Subterrânea (µg/L)</th>
+                <th>Solo Residencial (mg/kg)</th>
+                <th>Solo Industrial (mg/kg)</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    <footer>
+        <p>2024 - Azulzin do Brasil. Todos os direitos reservados</p>
+        <p>Não entre em contato pelo email: andre.phillipe280@gmail.com</p>
+    </footer>
+</body>
+</html>

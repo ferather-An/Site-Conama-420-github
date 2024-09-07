@@ -1,0 +1,123 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-color: #f0f2f5; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.8rem; /* Tamanho da fonte */
+    color: #30475e; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    margin-top: 2rem; /* Espaçamento superior */
+}
+
+/* Estiliza os títulos h2 */
+h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #30475e; /* Cor do texto */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+/* Estiliza os títulos h3 */
+h3 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #30475e; /* Cor do texto */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    padding: 2rem; /* Espaçamento interno */
+    background: #ffffff; /* Cor de fundo das seções */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+section:hover {
+    transform: translateY(-10px); /* Efeito de elevação ao passar o mouse */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 100%; /* Largura dos inputs */
+    max-width: 30rem; /* Largura máxima dos inputs */
+    border: 1px solid #ccc; /* Borda dos inputs */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474b; /* Cor do texto */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    transition: border-color 0.3s ease; /* Transição suave */
+}
+
+section input:focus {
+    border-color: #30475e; /* Cor da borda ao focar */
+    outline: none; /* Remove o outline padrão */
+}
+
+/* Estiliza os botões dentro das seções */
+section button, .button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475e; /* Cor de fundo do botão */
+    color: #f5f7f8; /* Cor do texto do botão */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    text-decoration: none; /* Remove a decoração do link */
+    display: inline-block; /* Permite padding e margin */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+section button:hover, .button:hover {
+    background-color: #222831; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza a tabela */
+table {
+    width: 100%; /* Largura total da tabela */
+    border-collapse: collapse; /* Remove os espaços entre as células */
+    margin-bottom: 2rem; /* Espaçamento abaixo da tabela */
+    background: #ffffff; /* Cor de fundo da tabela */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    overflow: hidden; /* Esconde bordas arredondadas */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borda das células */
+    padding: 0.8rem; /* Espaçamento interno das células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+th {
+    background-color: #30475e; /* Cor de fundo do cabeçalho */
+    color: #f5f7f8; /* Cor do texto do cabeçalho */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #30475e; /* Cor de fundo do rodapé */
+    color: #f5f7f8; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    position: fixed; /* Posiciona o rodapé */
